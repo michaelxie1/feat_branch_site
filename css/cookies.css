@@ -1,30 +1,36 @@
-
+html{
+  height: 100%;
+}
 
 body {
     font-family: Arial;
     color: blue;
     text-align: center;
-  }
+    background: linear-gradient(#64e673, #bec2ed);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
   
-  img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-  }
-  /*
-  .div-class {
-   color: mediumorchid;
-  } 
-  
-  #div-id {
-    color: crimson;
-  } 
-  
-  div {
-    color: orange;
-  }
-  */
-  a {
+img {
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
     text-decoration: none;
-    color: seagreen;
-  }
+    color: white;
+}
+a:hover {
+  color: purple;
+}
+a:visited {
+  color: green;
+}

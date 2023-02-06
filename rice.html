@@ -10,17 +10,28 @@
     <link rel="stylesheet" type="text/css" href="css/rice.css">
 </head>
 <body>
-    <p>Welcome! This is a recipe for rice!</p>
+    <h3>Welcome! This is a recipe for rice!</h3>
 
-    <div id="div-id" class="div-class" style="background-color: rgb(230, 242, 250)">
-        <p>Step 1 wash rice</p>
-        <img src="img/rice_images/wash_rice.png" style="height:200px;"/>
-        
-        <p>Step 2: cook rice</p>
-        <img src="img/rice_images/cook_rice.png" style="height:200px;"/>
-        
-        <p>Step 3: serve rice and enjoy</p>
-        <img src="img/rice_images/serve_rice.png" style="height:200px;"/>
+    <div id="div-id" class="div-class">
+        <table>
+            <tr>
+                <td><img src="img/rice_images/wash_rice.png" alt="washing rice"/></td>
+                <td><img src="img/rice_images/cook_rice.png" alt="cooking rice"/></td>
+                <td><img src="img/rice_images/serve_rice.png" alt="serving rice"/></td>
+            </tr>
+            <tr>
+                <td><p>Step 1 Wash the rice</p></td>
+                <td><p>Step 2: Cook the rice</p></td>
+                <td><p>Step 3: Serve the rice and enjoy</p></td>
+            </tr>
+
+        </table>
+    </div>
+    <div id = "description">
+        <p>This is a recipe for rice. The instructions may not be clear, so here is an actual
+            a website with more instructions to properly cook it. </p>
+        <a href="https://www.foodnetwork.com/how-to/articles/how-to-make-perfect-rice-a-step-by-step-guide">Cooking rice full recipe</a>
+
     </div>
 
     <button onclick="changeColor()">Change Color</button>

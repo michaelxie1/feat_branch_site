@@ -12,19 +12,35 @@
 
 </head>
 <body>
-    <p>Welcome! This is a recipe for cookies
-    </p>
+    <h3>Welcome! This is a recipe for cookies</h3>
 
-    <p>Step 1: Mix ingredients (eggs, flour, sugar, chocolate)</p>
-    <img src="img/cookie_images/mix_ingredients.png" style="height:200px;"/>
-    
-    <p>Step 2: bake cookies</p>
-    <img src="img/cookie_images/baking_cookies.png" style="height:200px;"/>
-    
-    <p>Step 3: serve cookies and enjoy</p>
-    <img src="img/cookie_images/eat_cookies.png" style="height:200px;"/>
+    <table>
+        <tr>
+            <td><img src="img/cookie_images/mix_ingredients.png" style="height:200px;"/></td>
+            <td><img src="img/cookie_images/baking_cookies.png" style="height:200px;"/></td>
+            <td><img src="img/cookie_images/eat_cookies.png" style="height:200px;"/></td>
+        </tr>
+
+
+        <tr>
+            <td><p>Step 1: Mix ingredients (eggs, flour, sugar, chocolate)</p></td>
+            <td><p>Step 2: Bake cookies</p></td>
+            <td><p>Step 3: Serve cookies and enjoy</p></td>
+        </tr>
+    </table>
+
+    <div id = "description">
+        <p>This is a very simple recipe for making cookies. The instructions may not be clear, so here is an actual
+            a website with more instructions to properly make them.
+        </p>
+        <a href = "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/"> Baking cookies</a>
+    </div>
+    <button onclick="changeColor()">Change Color</button>
+
+
 
     <a href="index.html">Back to Homepage</a>
+    <script src="script.js"></script>
     
 </body>
 </html>
