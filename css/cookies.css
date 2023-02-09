@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
+
 table {
     margin-left: auto;
     margin-right: auto;
@@ -26,11 +27,18 @@ img {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 a:hover {
-  color: purple;
+  color: rgb(255, 55, 0);
 }
 a:visited {
   color: green;
+}
+#description{
+  text-indent: 25px;
+  text-align: left;
+  margin-left:auto;
+  margin-right:55%;
+  margin-bottom: 200px;
 }
