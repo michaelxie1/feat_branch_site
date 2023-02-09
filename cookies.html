@@ -4,22 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cookies</title>
+    <h1>WELCOME THIS IS A COOKIE RECIPE</h1>
+
+    <link rel="stylesheet" type="text/css" href="css/cookies.css">
+
 </head>
 <body>
-    <p>Welcome! This is a recipe for cookies
-    </p>
+    <h3>HOW TO MAKE COOKIES: A STEP BY STEP W/ VISUALS</h3>
 
-    <p>Step 1: Mix ingredients (eggs, flour, sugar, chocolate)</p>
-    <img src="img/cookie_images/mix_ingredients.png" style="height:200px;"/>
-    
-    <p>Step 2: bake cookies</p>
-    <img src="img/cookie_images/baking_cookies.png" style="height:200px;"/>
-    
-    <p>Step 3: serve cookies and enjoy</p>
-    <img src="img/cookie_images/eat_cookies.png" style="height:200px;"/>
+    <table>
+        <tr>
+            <td><img src="img/cookie_images/mix_ingredients.png" style="height:200px;"/></td>
+            <td><img src="img/cookie_images/baking_cookies.png" style="height:200px;"/></td>
+            <td><img src="img/cookie_images/eat_cookies.png" style="height:200px;"/></td>
+        </tr>
+
+
+        <tr>
+            <td><p>Step 1: Mix ingredients (eggs, flour, sugar, chocolate)</p></td>
+            <td><p>Step 2: Bake cookies</p></td>
+            <td><p>Step 3: Serve cookies and enjoy</p></td>
+        </tr>
+    </table>
+
+    <div id = "description">
+        <p>This is a very simple recipe for making cookies. The instructions may not be clear, so here is an actual
+            a website with more instructions to properly make them. Please do further research for if you would
+            like a different flavor or style of cookie. (The following is only a recipe for chocolate chip)
+        </p>
+        <a href = "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/"> Baking cookies full recipe</a>
+    </div>
+    <button onclick="changeColor()">Change Color</button>
+
+
 
     <a href="index.html">Back to Homepage</a>
+    <script src="script.js"></script>
     
 </body>
 </html>
